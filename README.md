@@ -14,6 +14,6 @@ These code will be functional under ROOT enviroment
   3.realtime decay  
   4.Background from Sodium  
 
-#Future plan
+#Future plan  
   5.Using Geant4 to simulation physics phenomenone instead of self-made funtions.  
   6.Changable PMT configuration.  
