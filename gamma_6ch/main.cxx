@@ -241,17 +241,7 @@ int main(int argc, char **argv){
 	    break;
 	  }
 	}
-	cout << (v1+v2+v3).Mag()<<";"<<v1.Mag()+v2.Mag()+v3.Mag()<<endl;
-	  //if(th>TMath::Pi()/2.){
-	  // E2 = Mv2/TMath::Abs(TMath::Cos(th));
-	  // if(E2<511. && E2<RestE){
-	  //  v2.SetMag(E2);
-	  //   v3 = v0-(v1+v2);
-	  //   if(TMath::Abs(v1.Mag()+v2.Mag()+v3.Mag()-1022)<5.){
-	  //	break;
-	  //  }
-	  //  }
-	  //}
+
         PMTv1 = DecidePMT(v1);
         PMTv2 = DecidePMT(v2);
         PMTv3 = DecidePMT(v3);
