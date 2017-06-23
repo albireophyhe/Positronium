@@ -50,7 +50,7 @@ int PMTEne(Float_t meanE,Float_t sigma){
 }
 
 //Count compton scattering
-int Compton(Float_t Ei){
+float Compton(Float_t Ei){
   Float_t a;  
   a = Ei/511.;
   Float_t Tth;
@@ -83,7 +83,8 @@ int Compton(Float_t Ei){
   return 0;
 }
 
-int photon(Float_t Ei){
+//Next photon reaction probability may not accurate
+float photon(Float_t Ei){
   Double_t Tpe;
   Double_t A;
   Double_t B;
