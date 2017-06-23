@@ -267,12 +267,12 @@ int main(int argc, char **argv) {
             Double_t E1;
             Double_t E2;
             Double_t E3;
-
+	    Double_t th;
               
             while(1){
                 while(1){
-                    E2=rand.Rndm(1)*511.;
-                    E3=rand.Rndm(1)*511.;
+                    E2=erand.Rndm(1)*511.;
+                    E3=erand.Rndm(1)*511.;
                     E1=1022.-E2-E3;
                     if(E1<511.){
                         break;
